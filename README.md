@@ -1,2 +1,2 @@
-# IntraView-Network-Analytics-Platform
+# IntraView-Network-Analytics
 Network Device Monitoring &amp; Incident Platform
