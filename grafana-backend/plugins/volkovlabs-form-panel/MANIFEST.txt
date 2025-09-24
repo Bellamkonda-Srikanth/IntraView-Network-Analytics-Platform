@@ -1,0 +1,38 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "community",
+  "signedByOrg": "volkovlabs",
+  "signedByOrgName": "Volkov Labs",
+  "plugin": "volkovlabs-form-panel",
+  "version": "5.0.0",
+  "time": 1735057426595,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "LICENSE": "122f29b3b6f2a0d5ea3cd3d770c297b9582e03bc1aaaf0f3e0bd751011b8aefe",
+    "CHANGELOG.md": "cb3f57acbfd44b4f7ad6349c8afd34b79960ce7abc4ad63738f34598a9010bb2",
+    "plugin.json": "8199f2f3da1b98106f5c52c55f1e5a6a53e91d712a4f2f2141175618baca5054",
+    "module.js.map": "908b5e4431639abc4eeba6ac4ef456a6bef07f3583e659ad58393903a6e5d9f4",
+    "README.md": "7e6c32f5faa9d1a5fc072c0dab545db96fa9c44b2deeb5a08441861f35528695",
+    "img/request.png": "6a5bd6750b9914c8ee327107ccb1cfe68ea717f1655e23e556e8ebb4abd268b7",
+    "img/panel.png": "7966ac485cf7b6179023aec7569e64cdf2e03b0e1409c9257cdb64eae7869b9c",
+    "img/elements.png": "89271ee1e246c51e88fb030cf4a90090bf97585536aeef4e6d99e453ce8ccf3e",
+    "img/logo.svg": "a4a44b2d994ab911e499a1ee150b254cf34c13829254bd399a3d4bfc742e2415",
+    "module.js": "e831cf3b231c638e82a7b9b3f9b06372001764243f8e18ed9d61774279d15cfe",
+    "module.js.LICENSE.txt": "97a7c32f22ff541e709de013bb044e5dbb0f735f0e8dcc8aef2d7292caabd6e9"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.11
+Comment: https://openpgpjs.org
+
+wrkEARMKAAYFAmdq4BIAIQkQfk0ManCIZucWIQTzOyW2kQdOhGNlcPN+TQxq
+cIhm5wxpAgkA7zbYDFHArC/P2JbBekBNgqfe/yB+UvYBUyb8gLTjSCAZPUq9
+f1PAODLztM3AnL9Z6VV3Hks39eKMsFveP7iKIagCCQBP1yX4viSDuP/F/jTf
+NFc48vX/4/OC4ggWhTlH8N02TqCla3Y1pJUcwWEa8DMrhYrpKPlftrPY0ap0
+NvvpDgo4mQ==
+=QNcD
+-----END PGP SIGNATURE-----
