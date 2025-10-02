@@ -4,7 +4,7 @@ import pandas as pd
 data = pd.read_csv('export.csv')
 
 # Change the hostname from 'name' to 'xyz'
-data['hostname'] = data['hostname'].replace('name', '3584Jagatsinghapur')
+data['hostname'] = data['hostname'].replace('name', '3584-Jagatsinghapur')
 
 # Convert DataFrame to Line Protocol format
 line_protocol_data = []
