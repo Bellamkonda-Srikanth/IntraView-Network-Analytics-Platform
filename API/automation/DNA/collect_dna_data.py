@@ -8,7 +8,7 @@ username = 'devnetuser'
 
 # InfluxDB details
 influxdb_host = 'influxdb'
-influxdb_port = '8086'
+influxdb_port = 8086
 influxdb_database = 'ciscodna'
 
 def get_network_health_data():
