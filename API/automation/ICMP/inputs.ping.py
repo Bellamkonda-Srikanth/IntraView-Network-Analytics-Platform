@@ -16,7 +16,7 @@ for line in data:
   interval = "60s"
   count = 4
   ping_interval = 1.0
-  timeout = 1.0
+  timeout = 2.0
   deadline = 10
   
   [inputs.ping.tags]
