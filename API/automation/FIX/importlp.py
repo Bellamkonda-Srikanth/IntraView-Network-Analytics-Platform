@@ -2,7 +2,7 @@ from influxdb import InfluxDBClient
 import sys
 
 # InfluxDB connection parameters
-host = "172.18.0.3"  # Update with your InfluxDB host
+host = "localhost"  # Update with your InfluxDB host
 port = 8086  # Update with your InfluxDB port
 database = "telegraf"  # Update with your InfluxDB database name
 
