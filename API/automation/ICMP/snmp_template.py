@@ -32,7 +32,7 @@ telegraf_template_string = """
 [[inputs.snmp]]
 agents = ["{{ ipaddress }}"]
 version = 2
-interval = "60s"
+interval = "30s"
 community = "{{ community }}"
 name = "snmpdevice"
   [[inputs.snmp.field]]
