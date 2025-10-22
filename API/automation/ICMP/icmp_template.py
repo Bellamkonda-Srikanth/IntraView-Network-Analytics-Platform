@@ -9,7 +9,7 @@ define host{
     alias                   {{ hostname }}
     address                 {{ ipaddress }}
     check_command           check-host-alive
-    check_interval          1
+    check_interval          5
     retry_interval          1
     max_check_attempts      10
     check_period            24x7
