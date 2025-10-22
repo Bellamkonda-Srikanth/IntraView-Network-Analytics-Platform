@@ -4,7 +4,7 @@ import sys
 # InfluxDB connection parameters
 host = "localhost"  # Update with your InfluxDB host
 port = 8086  # Update with your InfluxDB port
-database = "telegraf"  # Update with your InfluxDB database name
+database = "monitoring"  # Update with your InfluxDB database name
 
 # Initialize the InfluxDB client
 client = InfluxDBClient(host=host, port=port,  database=database)
