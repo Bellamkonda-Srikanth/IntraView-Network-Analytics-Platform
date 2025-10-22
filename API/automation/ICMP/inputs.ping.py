@@ -13,7 +13,7 @@ for line in data:
 
     inputs_string='''[[inputs.ping]]
   urls = ["{0}"]
-  interval = "60s"
+  interval = "30s"
   count = 4
   ping_interval = 1.0
   timeout = 2.0
