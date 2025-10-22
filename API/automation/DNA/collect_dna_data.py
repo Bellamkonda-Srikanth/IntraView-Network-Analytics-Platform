@@ -15,7 +15,7 @@ def get_network_health_data():
     # Authenticate with Cisco DNA Center
     auth_endpoint = f'{dna_center_url}/system/api/v1/auth/token'
     response = requests.post(auth_endpoint, auth=(username, password), verify=False)
-    #response.raise_for_status()
+  
     token = response.json()['Token']
 
     # Retrieve network health data
