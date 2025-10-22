@@ -52,7 +52,7 @@ def store_in_influxdb(data):
             },
 
             'tags': {
-                'dnahost': 'sandboxdnac'
+                'dnahost': 'sandbox-dnac'
             }
         }
     ]
