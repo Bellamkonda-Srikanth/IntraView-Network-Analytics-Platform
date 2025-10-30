@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Load the exported CSV data from monitoring system
+# Load exported CSV data from monitoring system
 data = pd.read_csv('export.csv')
 
 # Change the hostname from 'name' to 'xyz'
