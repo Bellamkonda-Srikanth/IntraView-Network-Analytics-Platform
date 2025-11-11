@@ -24,7 +24,7 @@ def get_network_health_data():
         'Content-Type': 'application/json',
         'x-auth-token': token
     }
-    response = requests.get(health_endpoint, headers=headers, verify=True)
+    response = requests.get(health_endpoint, headers=headers, verify=False)
     response.raise_for_status()
     network_health_data = response.json()
 
