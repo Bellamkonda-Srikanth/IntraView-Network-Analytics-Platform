@@ -3,7 +3,7 @@ import sys
 
 # InfluxDB connection parameters
 host = "localhost"  # Update with your InfluxDB host
-port = 8086  # Update with your InfluxDB port
+port = 8087  # Update with your InfluxDB port
 database = "monitoring"  # Update with your InfluxDB database name
 
 # Initialize the InfluxDB client
