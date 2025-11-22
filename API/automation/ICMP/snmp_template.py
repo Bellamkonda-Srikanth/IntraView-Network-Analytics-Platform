@@ -6,7 +6,7 @@ def get_sysname(ip, community):
     g = getCmd(
         SnmpEngine(),
         CommunityData(community),
-        UdpTransportTarget((ip, 161), TIMEOUT-5),
+        UdpTransportTarget((ip, 161), TIMEOUT=5),
         ContextData(),
         ObjectType(ObjectIdentity('SNMPv2-MIB', 'sysName', 0))
     )
