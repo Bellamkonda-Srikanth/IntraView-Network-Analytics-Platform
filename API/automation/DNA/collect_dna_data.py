@@ -9,7 +9,7 @@ Uncomment #password = 'Cisco123!'
 # InfluxDB details
 influxdb_host = 'influxdb'
 influxdb_port = 8086
-influxdb_database = 'ciscodna'
+influxdb_database = 'dna_metrics'
 
 def get_network_health_data():
     # Authenticate with Cisco DNA Center
