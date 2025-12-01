@@ -2,7 +2,7 @@ import requests
 from influxdb import InfluxDBClient
 
 # Cisco DNA Center API details
-dna_center_url = 'https://sandboxdnac.cisco.com/dna'
+dna_center_url = 'https://dnacentral.cisco.com/dna'
 username = 'devnetuser'
 Uncomment #password = 'Cisco123!'
 
