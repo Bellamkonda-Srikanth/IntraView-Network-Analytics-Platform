@@ -17,7 +17,7 @@ for line in data:
   count = 3
   ping_interval = 1.0
   timeout = 2.0
-  deadline = 10
+  deadline = 15
   
   [inputs.ping.tags]
      geohash="{1}"
