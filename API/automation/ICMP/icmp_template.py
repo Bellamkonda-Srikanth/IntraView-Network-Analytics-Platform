@@ -14,7 +14,7 @@ define host{
     max_check_attempts      10
     check_period            24x7
     contact_groups          admins
-    notification_interval   1440
+    notification_interval   720
     notification_period     24x7
     notification_options    d,u,r
     host_groups             Expereo
