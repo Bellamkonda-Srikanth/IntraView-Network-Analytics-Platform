@@ -39,7 +39,7 @@ def store_in_influxdb(data):
     #'healthScore': 100, 'totalCount': 4, 'goodCount': 4, 'noHealthCount': 0, 'fairCount': 0, 'badCount': 0, 'maintenanceModeCount': 0,
     influxdb_data = [
         {
-            'measurement': 'dna_network_health',
+            'measurement': 'network_health',
             'fields': {
                 'healthscore': data['response'][0]['healthScore'],
                 'totalCount': data['response'][0]['totalCount'],
