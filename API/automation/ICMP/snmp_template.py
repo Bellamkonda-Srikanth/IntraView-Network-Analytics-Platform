@@ -31,7 +31,7 @@ def get_sysname(ip, community):
 telegraf_template_string = """
 [[inputs.snmp]]
 agents = ["{{ ipaddress }}"]
-version = 2
+version = 3
 interval = "30s"
 community = "{{ community }}"
 name = "snmpdevice"
