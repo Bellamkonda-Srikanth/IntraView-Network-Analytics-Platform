@@ -26,7 +26,7 @@ service_template_string = """
 define service{
     use                     generic-service
     host_name               {{ hostname }}
-    service_description     Link Status
+    service_description     Link_Status
     check_command           check-dummy!0
     active_checks_enabled   0
     max_check_attempts      3
