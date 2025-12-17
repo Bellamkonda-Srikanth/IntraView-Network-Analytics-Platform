@@ -1,7 +1,7 @@
 import os
 
 
-fh = open('ace.csv','r')
+fh = open('devices.csv','r')
 data = fh.readlines()
 fh.close()
 
