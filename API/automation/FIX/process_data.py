@@ -15,6 +15,6 @@ for index, row in data.iterrows():
     line_protocol_data.append(f"interface,{tags} {fields} {timestamp}")
 
 # Save the line protocol data to a file
-with open('updated_export.lp', 'w') as f:
+with open('export_upded.lp', 'w') as f:
     f.write("\n".join(line_protocol_data))
 
