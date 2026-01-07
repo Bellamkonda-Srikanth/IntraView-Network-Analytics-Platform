@@ -16,7 +16,7 @@ define host{
     contact_groups          admins
     notification_interval   720
     notification_period     24x7
-    notification_options    d,u,r,f
+    notification_options    d,u,r
     host_groups             Expereo
 }
 """
