@@ -44,6 +44,7 @@ def store_in_influxdb(data):
             'fields': {
                 'healthscore': data['response'][0]['healthScore'],
                 'totalCount': data['response'][0]['totalCount'],
+                'timestamp': data['timestamp'],
                 'goodCount': data['response'][0]['goodCount'],
                 'noHealthCount': data['response'][0]['noHealthCount'],
                 'fairCount': data['response'][0]['fairCount'],
