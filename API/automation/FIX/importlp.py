@@ -19,6 +19,7 @@ def write_line_protocol_file_to_influxdb(file_path):
                 line = line.strip()  # Remove any extra whitespace
                 if line:
                     line = add_double_quotes(line)
+                    batch_size=5000
                     print(line)
                     client.write_points([line], protocol='line')
         print(f"Successfully wrote data from {file_path} to InfluxDB.")
