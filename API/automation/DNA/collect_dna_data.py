@@ -23,7 +23,6 @@ def get_network_health_data():
     headers = {
         'Content-Type': 'application/json',
         'x-auth-token': token
-        retry logic with max_retries = 3
     }
     response = requests.get(health_endpoint, headers=headers, verify=False)
     response.raise_for_status()
