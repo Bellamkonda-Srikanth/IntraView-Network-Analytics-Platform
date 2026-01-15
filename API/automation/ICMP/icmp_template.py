@@ -30,7 +30,7 @@ define service{
     check_command           check-dummy!0
     active_checks_enabled   0
     max_check_attempts      3
-    check_interval          5
+    check_interval          3
     retry_interval          1
     check_period            24x7
     notification_interval   720
