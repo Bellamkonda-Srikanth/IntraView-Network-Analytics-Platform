@@ -15,7 +15,7 @@ for line in data:
   urls = ["{0}"]
   interval = "30s"
   count = 3
-  ping_interval = 1.0
+  ping_interval = 0.5
   timeout = 2.0
   deadline = 15
   
