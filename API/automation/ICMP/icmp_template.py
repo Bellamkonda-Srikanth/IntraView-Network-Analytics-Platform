@@ -11,7 +11,7 @@ define host{
     check_command           check-host-alive
     check_interval          5
     retry_interval          2
-    max_check_attempts      10
+    max_check_attempts      5
     check_period            24x7
     contact_groups          admins
     notification_interval   720
