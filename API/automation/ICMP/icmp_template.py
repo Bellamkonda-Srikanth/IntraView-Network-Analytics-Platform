@@ -31,7 +31,7 @@ define service{
     active_checks_enabled   0
     max_check_attempts      3
     check_interval          3
-    retry_interval          1
+    retry_interval          2
     check_period            24x7
     notification_interval   720
     notification_period     24x7
