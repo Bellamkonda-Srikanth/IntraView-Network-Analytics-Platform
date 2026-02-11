@@ -1,7 +1,8 @@
 import pandas as pd
 
 # Load exported CSV data from monitoring system
-data = pd.read_csv('export.csv', encoding='utf-8')
+data = pd.read_csv('export.csv')
+encoding='utf-8'
 
 # Change the hostname from 'name' to 'xyz'
 data['hostname'] = data['hostname'].replace('name', '3584-srikanth')
