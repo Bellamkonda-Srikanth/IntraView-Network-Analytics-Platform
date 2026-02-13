@@ -5,7 +5,7 @@ data = pd.read_csv('export.csv')
 encoding='utf-8'
 
 # Change the hostname from 'name' to 'xyz'
-data['hostname'] = data['hostname'].replace('name', '3584-srikanth')
+data['hostname'] = data['hostname'].replace('name', '3584_srikanth')
 
 data type conversion: row[col] = float(row[col])
 # Convert DataFrame to Line Protocol format
