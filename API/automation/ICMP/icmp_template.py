@@ -67,7 +67,6 @@ for line in DATA:
     check_file = os.path.isfile('/usr/local/nagios/etc/objects/BB/HOST/{0}.cfg'.format(target_ip))
     if check_file:
         os.rename('/usr/local/nagios/etc/objects/BB/HOST/{0}.cfg'.format(target_ip), '/root/BACKUP/nagios/{0}.cfg'.format(target_ip))
-    FH = open('/usr/local/nagios/etc/objects/BB/HOST/{0}.cfg'.format(target_ip), 'w')
+  with open('/usr/local/nagios/etc/objects/BB/HOST/{0}.cfg'.format(sysname), 'w') as FH:
     FH.write(host_output)
     FH.write(service_output)
-    FH.close()
