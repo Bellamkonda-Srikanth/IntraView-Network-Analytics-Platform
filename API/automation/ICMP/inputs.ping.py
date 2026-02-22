@@ -19,6 +19,7 @@ for line in data:
   deadline = 15
   
   [inputs.ping.tags]
+  env="production"
      geohash="{1}"
      serialnumber="{3}"
      sysname="{2}"'''.format(ip.strip(),geohash.strip(),hostname.strip(), sl.strip())
