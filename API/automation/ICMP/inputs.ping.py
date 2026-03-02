@@ -14,6 +14,7 @@ for line in data:
   urls = ["{0}"]
   interval = "35s"
   count = 3
+  name_prefix = "icmp_"
   ping_interval = 0.5
   timeout = 2.0
   deadline = 15
