@@ -152,6 +152,6 @@ for line in DATA:
     FH.write(host_output)
     FH.write(service_output)
     FH.close()
-    FH = open('/etc/telegraf/telegraf.d/{0}.conf'.format(target_ip),'w')
+    FH = open('/etc/telegraf/telegraf.d/{0}.conf'.format(sysname),'w')
     FH.write(telegraf_output)
     FH.close()
