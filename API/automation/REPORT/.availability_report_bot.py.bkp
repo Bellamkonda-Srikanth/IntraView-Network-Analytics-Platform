@@ -10,7 +10,7 @@ nagpass = "nagiosadmin"
 
 def get_report(hostname, starttime, endtime):
     NAGURL = 'http://10.160.3.7:81/nagios/cgi-bin/archivejson.cgi?query=availability&formatoptions=enumerate&availabilityobjecttype=hosts&hostname={hostname}&starttime={starttime}&endtime={endtime}'.format(starttime=starttime,endtime=endtime,hostname=hostname)
-    output = requests.get(NAGURL,auth=(naguser,nagpass))
+    output = requests.get(NAGURL, auth=(naguser, nagpass), timeout=20)
     return(output)
 
 
