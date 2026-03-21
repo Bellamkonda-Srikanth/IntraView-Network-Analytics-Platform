@@ -149,7 +149,7 @@ for row in results:
         data = json.loads(output.text)
         tmonth_time_up_percent = "{:.2f}".format((data['data']['host']['time_up'] / total_time ) * 100)
         if float(tmonth_time_up_percent) == 0.00:
-            tmonth_time_up_percent == 1.00
+            tmonth_time_up_percent = 1.00
         tmonth_time_down_percent = "{:.2f}".format((data['data']['host']['time_down'] / total_time ) * 100)
     except Exception as e:
         print("Error " + str(e))
