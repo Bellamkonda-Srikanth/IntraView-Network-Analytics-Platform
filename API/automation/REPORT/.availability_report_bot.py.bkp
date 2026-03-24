@@ -201,7 +201,9 @@ for row in results:
     if row is None:
         # Insert a new row for the hostname
         cur.execute(
-            "INSERT INTO availability_report (hostname, today, yesterday, thisweek, lastweek, thismonth, lastmonth) VALUES ('{0}', {1}, {2}, {3}, {4}, {5}, {6})".format(hostname, today_time_up_percent, yday_time_up_percent, tweek_time_up_percent, yweek_time_up_percent, tmonth_time_up_percent, lmonth_time_up_percent))
+    "INSERT INTO availability_report (hostname, today, yesterday, thisweek, lastweek, thismonth, lastmonth) VALUES (%s, %s, %s, %s, %s, %s, %s)",
+    (hostname, today_time_up_percent, yday_time_up_percent, tweek_time_up_percent, yweek_time_up_percent, tmonth_time_up_percent, lmonth_time_up_percent)
+    )
     else:
         # Update the existing row for the hostname
         cur.execute(
