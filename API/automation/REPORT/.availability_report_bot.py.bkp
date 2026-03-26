@@ -184,6 +184,8 @@ for row in results:
     
     
     # Connect to the PostgreSQL database
+if not hostname:
+    continue
     conn = psycopg2.connect(
         host="postgres",
         database="autointelli",
