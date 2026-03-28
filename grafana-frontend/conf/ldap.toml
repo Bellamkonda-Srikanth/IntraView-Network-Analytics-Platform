@@ -8,7 +8,7 @@ host = "127.0.0.1"
 # Default port is 389 or 636 if use_ssl = true
 port = 389
 # Set to true if LDAP server should use an encrypted TLS connection (either with STARTTLS or LDAPS)
-use_ssl = false
+use_ssl = true
 # If set to true, use LDAP with STARTTLS instead of LDAPS
 start_tls = false
 # The value of an accepted TLS cipher. By default, this value is empty. Example value: ["TLS_AES_256_GCM_SHA384"])
