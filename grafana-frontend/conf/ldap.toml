@@ -33,7 +33,7 @@ bind_password = '$__env{LDAP_BIND_PASSWORD}'
 # bind_password = '$__env{LDAP_BIND_PASSWORD}'
 
 # Timeout in seconds (applies to each host specified in the 'host' entry (space separated))
-timeout = 10
+timeout = 10  # LDAP request timeout in seconds
 
 # User search filter, for example "(cn=%s)" or "(sAMAccountName=%s)" or "(uid=%s)"
 search_filter = "(|(cn=%s)(uid=%s))"
