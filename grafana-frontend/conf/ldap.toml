@@ -68,6 +68,7 @@ org_role = "Admin"
 group_dn = "cn=editors,ou=groups,dc=grafana,dc=org"
 org_role = "Editor"
 
+# Default role for users not matching any group
 [[servers.group_mappings]]
 # If you want to match all (or no ldap groups) then you can use wildcard
 group_dn = "*"
