@@ -3,7 +3,7 @@
 [[servers]]
 host = "10.0.0.1"
 port = 389
-use_ssl = false
+use_ssl = true
 start_tls = false
 ssl_skip_verify = false
 bind_dn = "cn=admin,dc=grafana,dc=org"
