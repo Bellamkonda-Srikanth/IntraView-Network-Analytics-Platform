@@ -7,7 +7,7 @@ use_ssl = true
 start_tls = false
 ssl_skip_verify = false
 bind_dn = "cn=admin,dc=grafana,dc=org"
-bind_password = 'grafana'
+bind_password = '$__env{LDAP_BIND_PASSWORD_1}'
 search_filter = "(cn=%s)"
 search_base_dns = ["ou=users,dc=grafana,dc=org"]
 
