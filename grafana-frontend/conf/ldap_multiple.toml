@@ -27,7 +27,7 @@ grafana_admin = true
 
 [[servers]]
 host = "10.0.0.2"
-port = 389
+port = 636
 use_ssl = true
 start_tls = false
 ssl_skip_verify = false
