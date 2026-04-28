@@ -34,7 +34,7 @@ ssl_skip_verify = false
 
 bind_dn = "cn=admin,dc=grafana,dc=org"
 bind_password = '$__env{LDAP_BIND_PASSWORD_2}'
-search_filter = "(cn=%s)"
+search_filter = "(|(cn=%s)(uid=%s))"
 search_base_dns = ["ou=users,dc=grafana,dc=org"]
 
 [servers.attributes]
