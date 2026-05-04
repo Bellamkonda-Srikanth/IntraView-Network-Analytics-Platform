@@ -18,6 +18,7 @@ for line in data:
   ping_interval = 0.5
   timeout = 2.0
   deadline = 15
+  fw.close()
   
   [inputs.ping.tags]
   env="production"
