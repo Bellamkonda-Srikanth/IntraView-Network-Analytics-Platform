@@ -12,7 +12,7 @@ for line in data:
 
     inputs_string='''[[inputs.ping]]
   urls = ["{0}"]
-  interval = "35s"
+  interval = "30s"
   count = 3
   name_prefix = "icmp_"
   ping_interval = 0.5
