@@ -1,8 +1,9 @@
 import os
 
 
-with open('devices.csv', 'r', encoding='utf-8') as fh:
-    data = fh.readlines()
+fh = open('devices.csv','r')
+data = fh.readlines()
+fh.close()
 
 for line in data:
     line = line.strip()
