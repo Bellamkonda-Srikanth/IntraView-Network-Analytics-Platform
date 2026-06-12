@@ -16,7 +16,7 @@ for line in data:
   interval = "30s"
   count = 3
   name_prefix = "icmp_"
-  ping_interval = 0.5
+  ping_interval = 0.3
   timeout = 2.0
   deadline = 15
   fw.close()
